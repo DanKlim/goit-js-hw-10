@@ -1,0 +1,39 @@
+.form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.snackbar-input {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.radio {
+    width: 32px;
+    height: 32px;
+}
+
+fieldset>label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+    display: flex;
+    align-items: center;
+}
