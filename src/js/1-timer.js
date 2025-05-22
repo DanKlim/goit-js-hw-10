@@ -7,6 +7,7 @@ const btn = document.querySelector('button[type="button"]');
 const input = document.querySelector('input#datetime-picker');
 
 let userSelectedDate;
+btn.disabled = true;
 
 const options = {
   enableTime: true,
@@ -47,6 +48,8 @@ btn.addEventListener('click', () => {
         title: 'Done!',
         message: 'The countdown is finished.',
       });
+      btn.disabled = true;
+      input.disabled = false;
       return;
     }
 

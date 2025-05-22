@@ -10,7 +10,6 @@ form.addEventListener('submit', event => {
 
   const delay = Number(form.elements.delay.value);
   const state = form.elements.state.value;
-  console.log(delay, ' ', state);
 
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
